@@ -1,0 +1,1 @@
+qpdf input.pdf --pages . $(cat ./pages) -- extracted.pdf
