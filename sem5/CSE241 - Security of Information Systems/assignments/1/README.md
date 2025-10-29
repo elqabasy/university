@@ -1,16 +1,21 @@
-# CSE241 - Security of Information Systems Lab Assignment
+# GU/CSE241/A1
 
 ## Exercise Solutions
 
 ### 7.1 - Exercise Set (20 minutes)
 
-#### Demo Recordings
-- **Exercise 1 - Computer SHA256 hases**: 
-[![asciicast](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO.svg)](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO)
-- **Exercise 2 - Modify one Byte**:
-[![asciicast](https://asciinema.org/a/SyTwNzwPXOUc78MPNpmq9Dd0e.svg)](https://asciinema.org/a/SyTwNzwPXOUc78MPNpmq9Dd0e)
-- **Exercise 3 - Compare SHA256 and SHA512 speeds**:
-[![asciicast](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n.svg)](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n)
+<!-- #### Demo Recordings -->
+<!-- Exercise 1 - Compute SHA256 hashes -->
+[![asciicast](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO.svg)](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO?t=61:50)
+
+<!-- **Exercise 2 - Modify one Byte** -->
+[![asciicast](https://asciinema.org/a/SyTwNzwPXOUc78MPNpmq9Dd0e.svg)](https://asciinema.org/a/SyTwNzwPXOUc78MPNpmq9Dd0e?t=2:15)
+
+<!-- **Exercise 3 - Compare SHA256 and SHA512 speeds** -->
+[![asciicast](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n.svg)](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n?t=9:50)
+
+
+
 
 #### Exercise 4: SHAttered Attack Research
 - SHAttered is a Cryptanalyst for SHA1 that produced a two different pdfs witht he SAME SHA1-hash!
@@ -48,3 +53,4 @@ The avalanche effect is a property where a small change in input (even one bit) 
 - [SHAttered Attack Website](https://shattered.io/)
 
 > *Mahros AL-Qabasy*
+> *223106831*
