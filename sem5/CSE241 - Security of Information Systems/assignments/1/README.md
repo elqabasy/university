@@ -12,27 +12,9 @@
 - **Exercise 3 - Compare SHA256 and SHA512 speeds**:
 [![asciicast](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n.svg)](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n)
 
-### Implementation Details
-
-#### Exercise 1: SHA-256 Hash Computation
-- **Python Implementation**: Uses `hashlib` library for SHA-256 hashing
-- **C++ Implementation**: Uses OpenSSL's SHA-256 functions
-- **Verification**: Both implementations produce identical hash values
-
-#### Exercise 2: Avalanche Effect Demonstration
-- Modified one byte in the test file
-- Re-computed SHA-256 hash
-- Analyzed bit changes in the resulting hash
-
-#### Exercise 3: Performance Comparison
-- Benchmarking script comparing SHA-256 vs SHA-512
-- Measures hash computation speed for different data sizes
-- Results show performance characteristics on the test system
-
 #### Exercise 4: SHAttered Attack Research
-- Analysis of Google's SHA-1 collision attack
-- Details about the two different PDF files with identical SHA-1 hashes
-- Implications for hash function security
+- SHAttered is a Cryptanalyst for SHA1 that produced a two different pdfs witht he SAME SHA1-hash!
+- This is becasue collisions in SHA1, you can seee the full paper here: shattered.io
 
 ## 7.2 - Quiz Solutions
 
@@ -42,16 +24,15 @@
 3. **Collision Resistance**: It should be computationally infeasible to find two different messages m1 and m2 such that hash(m1) = hash(m2)
 
 ### 2. Why SHA-1 is No Longer Recommended
-SHA-1 is considered cryptographically broken due to:
-- Theoretical vulnerabilities discovered as early as 2005
-- Practical collision attack demonstrated by Google in 2017 (SHAttered attack)
-- NIST deprecated SHA-1 in 2011 and disallowed its use after 2013
+- As i mentioned in Ex.4, google produced two diff. pdfs with the same sha1-hash, so it's broken, or has a problem in collission resisten.
+- Also, Theoretical vulnerabilities discovered as early as 2005
+- NIST deprecated SHA-1 in 2011 and disallowed its use after 2013 # that's logicaly the normal flow after shattered.io papers
 
 ### 3. Why SHA-256 Can't Be Used Directly for Password Storage
-- SHA-256 is fast to compute, making brute-force attacks practical
-- No salt is used, allowing rainbow table attacks
-- No key stretching, making GPU/ASIC attacks efficient
-- **Solution**: Use dedicated password hashing functions like bcrypt, Argon2, or PBKDF2
+- I see that becasue the powerfull of todays super computers, we can make brute-force attacks on it.
+- Also the SHA256 is fast to compute, so the brute force will be practical
+- Also i we want to use it, we have to salt it for preventing rainbow attacks
+
 
 ### 4. Avalanche Effect
 The avalanche effect is a property where a small change in input (even one bit) causes a significant change in the output hash (approximately 50% of bits change). This ensures that similar inputs produce completely different hashes.
