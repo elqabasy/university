@@ -47,4 +47,4 @@ The avalanche effect is a property where a small change in input (even one bit) 
 - [Python hashlib Documentation](https://docs.python.org/3/library/hashlib.html)
 - [SHAttered Attack Website](https://shattered.io/)
 
--- Mahros AL-Qabasy
+> *Mahros AL-Qabasy*
