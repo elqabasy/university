@@ -5,9 +5,12 @@
 ### 7.1 - Exercise Set (20 minutes)
 
 #### Demo Recordings
-- **Exercise 1 & 2**: [![asciicast](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO.svg)](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO)
-- **Exercise 3**: [SHA-256 vs SHA-512 Speed Comparison](https://asciinema.org/a/SyTwNzwPXOUc78MPNpmq9Dd0e)
-- **Exercise 4 & Quiz**: [SHAttered Attack Research & Quiz Solutions](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO)
+- **Exercise 1 - Computer SHA256 hases**: 
+[![asciicast](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO.svg)](https://asciinema.org/a/zr1Xuq0hzAEcf730JgKJoMohO)
+- **Exercise 2 - Modify one Byte**:
+[![asciicast](https://asciinema.org/a/SyTwNzwPXOUc78MPNpmq9Dd0e.svg)](https://asciinema.org/a/SyTwNzwPXOUc78MPNpmq9Dd0e)
+- **Exercise 3 - Compare SHA256 and SHA512 speeds**:
+[![asciicast](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n.svg)](https://asciinema.org/a/TypRu8VEXeISdPfBRao3yBe4n)
 
 ### Implementation Details
 
