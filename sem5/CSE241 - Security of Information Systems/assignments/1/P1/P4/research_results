@@ -1,0 +1,10 @@
+
+
+
+# SHAttered attack is a cryptographic attack on SHA1,
+	this happen when the attacker generate the same hash for different files
+	that's exactly what google did:
+	google generated two different pdf files, with different content
+	BUT, with the same SHA1 hash!? what?
+	yes, you can check this here: shattered.io, also you can test your own files.
+	
