@@ -1,6 +1,0 @@
-qpdf input.pdf --pages . $(cat ./pages) -- extracted.pdf
-
-
-
-# another approach
-qpdf --empty --pages lecture.pdf  14,23,27,31,44 -- output.pdf
