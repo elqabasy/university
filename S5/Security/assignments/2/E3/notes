@@ -1,0 +1,11 @@
+
+
+
+
+suppose the user: date of birth is 2005, and his username is mahros and he adds a special char at the end of his password in this format
+
+
+
+
+
+{Username}@{dob}{special_char}
